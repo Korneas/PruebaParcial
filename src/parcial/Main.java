@@ -17,15 +17,12 @@ public class Main extends PApplet {
 	
 	@Override
 	public void settings(){
-		size(800,700);
-		
-		
+		size(1000,700);
 	}
 	
 	@Override
 	public void setup(){
 		app = new Logica(this);
-		colorMode(HSB,360,100,100);
 		
 	}
 	
